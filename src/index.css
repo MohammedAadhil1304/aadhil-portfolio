@@ -27,3 +27,31 @@ html, body {
     touch-action: manipulation;
   }
 }
+@keyframes powerGlow {
+  0% {
+    box-shadow: 0 0 20px rgba(139,92,246,0.4);
+  }
+  50% {
+    box-shadow: 0 0 60px rgba(139,92,246,0.9);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(139,92,246,0.4);
+  }
+}
+
+.animate-powerGlow {
+  animation: powerGlow 3s ease-in-out infinite;
+}
+@keyframes rotateSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotateSlow {
+  animation: rotateSlow 18s linear infinite;
+  will-change: transform;
+}
