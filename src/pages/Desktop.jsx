@@ -161,7 +161,7 @@ export default function Desktop() {
             z-20
           ">
             <img
-            src={`${import.meta.env.BASE_URL}profile.jpg`}
+            src={`${import.meta.env.BASE_URL}profile.jpeg`}
             alt="MOHAMMED AADHIL N"
             className="w-full h-full object-cover object-top"
 />
