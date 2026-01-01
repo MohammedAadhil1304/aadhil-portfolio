@@ -1,6 +1,7 @@
 export default function PowerButton() {
   return (
     <button
+      aria-label="Enter portfolio"
       className="
         w-14 h-14
         sm:w-16 sm:h-16
@@ -13,16 +14,15 @@ export default function PowerButton() {
         focus:outline-none
         animate-powerGlow
       "
-      aria-label="Enter portfolio"
     >
-      {/* SVG Power Icon */}
+      {/* SVG Power Icon (mobile-safe) */}
       <svg
         viewBox="0 0 24 24"
         className="
           w-6 h-6
           sm:w-7 sm:h-7
           md:w-9 md:h-9
-          stroke-violetGlow
+          text-violetGlow
         "
         fill="none"
         stroke="currentColor"
