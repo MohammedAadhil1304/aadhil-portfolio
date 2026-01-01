@@ -3,30 +3,35 @@ import { motion } from "framer-motion";
 export default function PowerButton() {
   return (
     <motion.button
-      whileHover={{ scale: 1.12 }}
-      whileTap={{ scale: 0.92 }}
+      whileTap={{ scale: 0.88 }}
       animate={{
         boxShadow: [
-          "0 0 40px rgba(139,92,246,0.5)",
-          "0 0 120px rgba(139,92,246,1)",
-          "0 0 40px rgba(139,92,246,0.5)",
+          "0 0 20px rgba(139,92,246,0.4)",
+          "0 0 60px rgba(139,92,246,0.9)",
+          "0 0 20px rgba(139,92,246,0.4)",
         ],
       }}
       transition={{
-        duration: 4,
+        duration: 3,
         repeat: Infinity,
         ease: "easeInOut",
       }}
       className="
-        w-16 h-16 sm:w-20 sm:h-20
+        w-14 h-14
+        sm:w-16 sm:h-16
+        md:w-20 md:h-20
         rounded-full
         bg-gradient-to-br from-[#2a1850] to-black
         border border-violetGlow/50
-        text-6xl text-violetGlow
-        shadow-2xl
+        text-2xl
+        sm:text-3xl
+        md:text-5xl
+        text-violetGlow
+        shadow-xl
         flex items-center justify-center
         focus:outline-none
       "
+      aria-label="Enter portfolio"
     >
       ⏻
     </motion.button>
