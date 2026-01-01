@@ -19,7 +19,6 @@ export default function PowerButton() {
       }}
       className="
         w-16 h-16 sm:w-20 sm:h-20
-
         rounded-full
         bg-gradient-to-br from-[#2a1850] to-black
         border border-violetGlow/50

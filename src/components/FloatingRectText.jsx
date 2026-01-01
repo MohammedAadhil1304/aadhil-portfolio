@@ -5,8 +5,12 @@ export default function FloatingRectText() {
   height="100%"
   viewBox="0 0 460 560"
   preserveAspectRatio="xMidYMid meet"
-      className="absolute inset-0 pointer-events-none"
-    >
+  className="
+    absolute inset-0
+    scale-[0.9]
+    sm:scale-100
+  "
+>
       <defs>
         {/* Rounded rectangle path */}
         <path
@@ -27,23 +31,24 @@ export default function FloatingRectText() {
       </defs>
 
       <text
-  fill="#8B5CF6"
-  fontSize="12"
-  letterSpacing="4"
-  fontFamily="Sora, sans-serif"
-  className="sm:text-[13px] lg:text-[14px]"
+  fill="#A78BFA"
+  fontSize="13"
+  letterSpacing="5"
+  opacity="0.9"
 >
+
 
         <textPath href="#rectPath" startOffset="0%">
           {/* TRAIN EFFECT */}
-          <animate
-            attributeName="startOffset"
-            from="0%"
-            to="100%"
-            dur="30s"
-            repeatCount="indefinite"
-          />
-          MOHAMMED · AADHIL · CYBERSECURITY · SOFTWARE DEVELOPER ·
+          <animateTransform
+  attributeName="transform"
+  type="rotate"
+  from="0 230 280"
+  to="360 230 280"
+  dur="18s"
+  repeatCount="indefinite"
+/>
+         MOHAMMED AADHIL • CYBERSECURITY • SOFTWARE DEVELOPER •
         </textPath>
       </text>
     </svg>
