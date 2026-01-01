@@ -18,9 +18,10 @@ Error generating stack: `+u.message+`
         w-full
         max-w-[520px] sm:max-w-[640px] lg:max-w-[860px]
         mx-auto
-        px-6 py-8
-        sm:px-10 sm:py-12
-        lg:px-20 lg:py-16
+        px-5 py-6
+sm:px-8 sm:py-10
+lg:px-20 lg:py-16
+
         rounded-2xl sm:rounded-3xl
         bg-[#1a102b]/65
         backdrop-blur-2xl
@@ -47,7 +48,8 @@ Error generating stack: `+u.message+`
           from-white/15 via-transparent to-transparent\r
           pointer-events-none\r
         `}),C.jsx("div",{className:"relative z-10",children:r})]})}function Kx(){return C.jsx(Kt.button,{whileHover:{scale:1.12},whileTap:{scale:.92},animate:{boxShadow:["0 0 40px rgba(139,92,246,0.5)","0 0 120px rgba(139,92,246,1)","0 0 40px rgba(139,92,246,0.5)"]},transition:{duration:4,repeat:1/0,ease:"easeInOut"},className:`\r
-        w-40 h-40\r
+        w-16 h-16 sm:w-20 sm:h-20\r
+\r
         rounded-full\r
         bg-gradient-to-br from-[#2a1850] to-black\r
         border border-violetGlow/50\r
@@ -68,7 +70,7 @@ Error generating stack: `+u.message+`
         `,backgroundSize:"200% 200%"},animate:{backgroundPosition:["0% 0%","100% 100%"]},transition:{duration:30,repeat:1/0,ease:"linear"},children:[C.jsx(Kt.div,{className:`\r
           absolute inset-0\r
           bg-[radial-gradient(circle_at_center,_rgba(139,92,246,0.15),_transparent_70%)]\r
-        `,animate:{opacity:[.4,.75,.4]},transition:{duration:8,repeat:1/0,ease:"easeInOut"}}),C.jsx("div",{className:"relative z-10 w-full flex justify-center",children:C.jsxs(Gx,{className:`\r
+        `,animate:{opacity:[.3,.6,.3]},transition:{duration:8,repeat:1/0,ease:"easeInOut"}}),C.jsx("div",{className:"relative z-10 w-full flex justify-center",children:C.jsxs(Gx,{className:`\r
             w-full\r
             max-w-[560px]\r
             px-6 py-8\r
@@ -76,15 +78,15 @@ Error generating stack: `+u.message+`
             lg:px-10 lg:py-12\r
             text-center\r
           `,children:[C.jsx("div",{className:"flex justify-center",children:C.jsx("button",{onClick:r,className:"focus:outline-none",children:C.jsx(Kx,{})})}),C.jsx("h1",{className:`\r
-              mt-8\r
-              text-xl\r
-              sm:text-2xl\r
-              lg:text-3xl\r
-              font-semibold\r
-              tracking-[0.2em]\r
-              text-[#F5F3FF]\r
-              break-words\r
-            `,children:"MOHAMMED AADHIL N"}),C.jsx("p",{className:`\r
+    mt-6\r
+    text-xl\r
+    sm:text-2xl\r
+    lg:text-3xl\r
+    font-semibold\r
+    tracking-widest\r
+    text-[#F5F3FF]\r
+    whitespace-normal\r
+  `,children:"MOHAMMED AADHIL N"}),C.jsx("p",{className:`\r
               mt-4\r
               text-xs\r
               sm:text-sm\r
@@ -94,16 +96,17 @@ Error generating stack: `+u.message+`
               font-medium\r
               text-violetGlow\r
             `,children:"Cybersecurity & Software Developer"}),C.jsx("p",{className:`\r
+    mt-5\r
+    max-w-[280px]\r
+    sm:max-w-md\r
+    mx-auto\r
+    text-[13px]\r
+    sm:text-[15px]\r
+    lg:text-[16px]\r
+    leading-[1.6]\r
+    text-[#E9D5FF]/90\r
+  `,children:"I build secure, scalable software systems with a strong focus on cybersecurity, system architecture, and modern application development — driven by resilience, performance, and security by design."}),C.jsx("p",{className:`\r
               mt-6\r
-              max-w-md\r
-              mx-auto\r
-              text-sm\r
-              sm:text-[15px]\r
-              lg:text-[16px]\r
-              leading-relaxed\r
-              text-[#E9D5FF]\r
-            `,children:"I specialize in building secure, scalable software systems with a strong focus on cybersecurity, system architecture, and modern application development — driven by resilience, performance, and security by design."}),C.jsx("p",{className:`\r
-              mt-8\r
               text-xs\r
               sm:text-sm\r
               font-medium\r
