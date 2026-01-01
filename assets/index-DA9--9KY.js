@@ -194,7 +194,7 @@ Error generating stack: `+u.message+`
             shadow-[0_0_160px_rgba(139,92,246,0.55)]\r
             overflow-hidden\r
             z-20\r
-          `,children:C.jsx("img",{src:"/aadhil-portfolio/profile.jpg",alt:"MOHAMMED AADHIL N",className:"w-full h-full object-cover object-top"})})]})}),C.jsx("main",{ref:o,className:`\r
+          `,children:C.jsx("img",{src:"/aadhil-portfolio/profile.jpeg",alt:"MOHAMMED AADHIL N",className:"w-full h-full object-cover object-top"})})]})}),C.jsx("main",{ref:o,className:`\r
           relative z-10\r
           flex-1\r
           px-4 py-6\r
