@@ -52,6 +52,7 @@ html, body {
 }
 
 .animate-rotateSlow {
-  animation: rotateSlow 18s linear infinite;
+  animation: rotateSlow 16s linear infinite;
   will-change: transform;
 }
+
