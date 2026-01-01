@@ -3,14 +3,14 @@ export default function FloatingRectText() {
     <div
       className="
         absolute inset-0
-        flex items-center justify-center
         pointer-events-none
-        z-30
+        z-40
+        flex items-center justify-center
       "
     >
-      <div className="rect-text-train">
+      <span className="rect-text-train">
         MOHAMMED AADHIL • CYBERSECURITY • SOFTWARE DEVELOPER •
-      </div>
+      </span>
     </div>
   );
 }

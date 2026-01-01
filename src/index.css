@@ -10,9 +10,11 @@ html,
 body {
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
   background-color: #05010d;
-  color: white;
+  color: #f5f3ff;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -22,30 +24,33 @@ body {
 
 :root {
   --violetGlow: #8b5cf6;
+  --violetSoft: #c4b5fd;
+  --violetText: #e9d5ff;
   --darkBase: #05010d;
 }
 
-/* Utility class used in JSX */
+/* Utility helpers */
 .text-violetGlow {
   color: var(--violetGlow);
 }
-.border-violetGlow\/50 {
-  border-color: rgba(139, 92, 246, 0.5);
+
+.text-soft {
+  color: var(--violetText);
 }
 
 /* ============================
-   POWER BUTTON GLOW
+   POWER BUTTON GLOW (MOBILE SAFE)
 ============================ */
 
 @keyframes powerGlow {
   0% {
-    box-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
+    box-shadow: 0 0 18px rgba(139, 92, 246, 0.35);
   }
   50% {
-    box-shadow: 0 0 60px rgba(139, 92, 246, 0.9);
+    box-shadow: 0 0 55px rgba(139, 92, 246, 0.85);
   }
   100% {
-    box-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
+    box-shadow: 0 0 18px rgba(139, 92, 246, 0.35);
   }
 }
 
@@ -55,58 +60,89 @@ body {
 
 /* ============================
    RECTANGULAR TEXT TRAIN
-   (Around profile photo)
+   (MOBILE + DESKTOP SAFE)
 ============================ */
 
 .rect-text-train {
   position: absolute;
-  width: 260px;
-  height: 360px;
-  inset: 50%;
-  transform: translate(-50%, -50%);
-  color: #c4b5fd;
-  font-size: 13px;
-  letter-spacing: 4px;
-  font-weight: 500;
+  display: inline-block;
   white-space: nowrap;
   pointer-events: none;
 
-  /* Rounded-rectangle path */
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 4px;
+  color: var(--violetSoft);
+
+  /* Anchor point for motion path */
+  width: 1px;
+  height: 1px;
+
+  /* Rectangular motion path */
   offset-path: path(
-    "M 0 20
-     Q 0 0 20 0
-     L 240 0
-     Q 260 0 260 20
-     L 260 340
-     Q 260 360 240 360
-     L 20 360
-     Q 0 360 0 340
+    "M 0 0
+     L 260 0
+     L 260 360
+     L 0 360
      Z"
   );
 
   offset-distance: 0%;
-  animation: rectTrainMove 14s linear infinite;
+  offset-rotate: 0deg;
+
+  animation: rectTrainMove 12s linear infinite;
   will-change: offset-distance;
 }
 
 /* Mobile tuning */
 @media (max-width: 640px) {
   .rect-text-train {
-    width: 220px;
-    height: 320px;
     font-size: 12px;
     letter-spacing: 3px;
+    offset-path: path(
+      "M 0 0
+       L 220 0
+       L 220 320
+       L 0 320
+       Z"
+    );
   }
 }
 
 @keyframes rectTrainMove {
+  from {
+    offset-distance: 0%;
+  }
   to {
     offset-distance: 100%;
   }
 }
 
 /* ============================
-   OPTIONAL: SMOOTH CONTENT
+   CONTENT VISIBILITY BOOST
+============================ */
+
+main p,
+main li {
+  color: var(--violetText);
+  line-height: 1.7;
+}
+
+main h1,
+main h2,
+main h3 {
+  background: linear-gradient(
+    to right,
+    #a78bfa,
+    #d946ef
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ============================
+   OPTIONAL FADE-IN (USED BY PANELS)
 ============================ */
 
 .fade-in {
