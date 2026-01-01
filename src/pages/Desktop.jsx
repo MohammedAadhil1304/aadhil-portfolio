@@ -29,10 +29,11 @@ const SECTIONS = {
   experience: <Experience />,
   resume: (
     <iframe
-      src="/resume.pdf"
-      title="Resume"
-      className="w-full h-[70vh] rounded-xl border border-white/10"
-    />
+  src={`${import.meta.env.BASE_URL}resume.pdf`}
+  title="Resume"
+  className="w-full h-[70vh] rounded-xl border border-white/10"
+/>
+
   ),
   contact: <Contact />,
   terminal: <Terminal />,
@@ -160,10 +161,10 @@ export default function Desktop() {
             z-20
           ">
             <img
-              src="/profile.jpeg"
-              alt="MOHAMMED AADHIL N"
-              className="w-full h-full object-cover object-top"
-            />
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
+            alt="MOHAMMED AADHIL N"
+            className="w-full h-full object-cover object-top"
+/>
           </div>
         </div>
       </section>
