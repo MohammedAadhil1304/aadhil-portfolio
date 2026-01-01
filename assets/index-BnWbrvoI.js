@@ -153,7 +153,7 @@ Error generating stack: `+u.message+`
             text-orange-700\r
             hover:bg-orange-50\r
             transition\r
-          `,children:"GitHub"})]})]})}const f1={about:C.jsx(o1,{}),skills:C.jsx(l1,{}),projects:C.jsx(a1,{}),experience:C.jsx(u1,{}),resume:C.jsx("iframe",{src:"/resume.pdf",title:"Resume",className:"w-full h-[70vh] rounded-xl border border-white/10"}),contact:C.jsx(c1,{}),terminal:C.jsx(p1,{})},d1=[{id:"about",title:"About",icon:Jx},{id:"skills",title:"Skills",icon:bx},{id:"projects",title:"Projects",icon:e1},{id:"experience",title:"Experience",icon:t1},{id:"resume",title:"Resume",icon:r1},{id:"contact",title:"Contact",icon:n1},{id:"terminal",title:"Terminal",icon:i1}];function h1(){const[r,i]=B.useState("about"),o=B.useRef(null),a=c=>{i(c),window.innerWidth<1024&&setTimeout(()=>{o.current?.scrollIntoView({behavior:"smooth",block:"start"})},120)};return C.jsxs("div",{className:`\r
+          `,children:"GitHub"})]})]})}const f1={about:C.jsx(o1,{}),skills:C.jsx(l1,{}),projects:C.jsx(a1,{}),experience:C.jsx(u1,{}),resume:C.jsx("iframe",{src:"/aadhil-portfolio/resume.pdf",title:"Resume",className:"w-full h-[70vh] rounded-xl border border-white/10"}),contact:C.jsx(c1,{}),terminal:C.jsx(p1,{})},d1=[{id:"about",title:"About",icon:Jx},{id:"skills",title:"Skills",icon:bx},{id:"projects",title:"Projects",icon:e1},{id:"experience",title:"Experience",icon:t1},{id:"resume",title:"Resume",icon:r1},{id:"contact",title:"Contact",icon:n1},{id:"terminal",title:"Terminal",icon:i1}];function h1(){const[r,i]=B.useState("about"),o=B.useRef(null),a=c=>{i(c),window.innerWidth<1024&&setTimeout(()=>{o.current?.scrollIntoView({behavior:"smooth",block:"start"})},120)};return C.jsxs("div",{className:`\r
         min-h-screen bg-darkBase\r
         relative overflow-hidden\r
         flex flex-col lg:flex-row\r
@@ -194,7 +194,7 @@ Error generating stack: `+u.message+`
             shadow-[0_0_160px_rgba(139,92,246,0.55)]\r
             overflow-hidden\r
             z-20\r
-          `,children:C.jsx("img",{src:"/profile.jpeg",alt:"MOHAMMED AADHIL N",className:"w-full h-full object-cover object-top"})})]})}),C.jsx("main",{ref:o,className:`\r
+          `,children:C.jsx("img",{src:"/aadhil-portfolio/profile.jpg",alt:"MOHAMMED AADHIL N",className:"w-full h-full object-cover object-top"})})]})}),C.jsx("main",{ref:o,className:`\r
           relative z-10\r
           flex-1\r
           px-4 py-6\r
