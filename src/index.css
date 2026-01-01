@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b0614;
+  color: #e9d5ff;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Sora", sans-serif;
+}
+/* =========================
+   MOBILE SAFETY FIXES
+========================= */
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* Better touch behavior */
+@media (max-width: 768px) {
+  button, div[role="button"] {
+    touch-action: manipulation;
+  }
+}
