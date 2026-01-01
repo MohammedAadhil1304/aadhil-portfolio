@@ -35,7 +35,7 @@ export default function Landing({ onPower }) {
           absolute inset-0
           bg-[radial-gradient(circle_at_center,_rgba(139,92,246,0.15),_transparent_70%)]
         "
-        animate={{ opacity: [0.4, 0.75, 0.4] }}
+        animate={{ opacity: [0.3, 0.6, 0.3] }}
         transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
       />
 
@@ -60,19 +60,20 @@ export default function Landing({ onPower }) {
 
           {/* Name */}
           <h1
-            className="
-              mt-8
-              text-xl
-              sm:text-2xl
-              lg:text-3xl
-              font-semibold
-              tracking-[0.2em]
-              text-[#F5F3FF]
-              break-words
-            "
-          >
-            MOHAMMED&nbsp;AADHIL&nbsp;N
-          </h1>
+  className="
+    mt-6
+    text-xl
+    sm:text-2xl
+    lg:text-3xl
+    font-semibold
+    tracking-widest
+    text-[#F5F3FF]
+    whitespace-normal
+  "
+>
+  MOHAMMED AADHIL N
+</h1>
+
 
           {/* Role */}
           <p
@@ -91,28 +92,28 @@ export default function Landing({ onPower }) {
           </p>
 
           {/* Description */}
-          <p
-            className="
-              mt-6
-              max-w-md
-              mx-auto
-              text-sm
-              sm:text-[15px]
-              lg:text-[16px]
-              leading-relaxed
-              text-[#E9D5FF]
-            "
-          >
-            I specialize in building secure, scalable software systems with a
-            strong focus on cybersecurity, system architecture, and modern
-            application development — driven by resilience, performance, and
-            security by design.
-          </p>
+<p
+  className="
+    mt-5
+    max-w-[280px]
+    sm:max-w-md
+    mx-auto
+    text-[13px]
+    sm:text-[15px]
+    lg:text-[16px]
+    leading-[1.6]
+    text-[#E9D5FF]/90
+  "
+>
+  I build secure, scalable software systems with a strong focus on
+  cybersecurity, system architecture, and modern application development —
+  driven by resilience, performance, and security by design.
+</p>
 
           {/* CTA */}
           <p
             className="
-              mt-8
+              mt-6
               text-xs
               sm:text-sm
               font-medium

@@ -11,9 +11,10 @@ export default function GlassCard({ children, className = "" }) {
         w-full
         max-w-[520px] sm:max-w-[640px] lg:max-w-[860px]
         mx-auto
-        px-6 py-8
-        sm:px-10 sm:py-12
-        lg:px-20 lg:py-16
+        px-5 py-6
+sm:px-8 sm:py-10
+lg:px-20 lg:py-16
+
         rounded-2xl sm:rounded-3xl
         bg-[#1a102b]/65
         backdrop-blur-2xl
