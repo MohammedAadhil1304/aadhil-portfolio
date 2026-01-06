@@ -131,7 +131,7 @@ export default function Desktop() {
             <div className="absolute inset-0 rounded-2xl ring-1 ring-violetGlow/30 pointer-events-none" />
 
             <img
-              src={`${import.meta.env.BASE_URL}profile.jpeg`}
+              src={`${import.meta.env.BASE_URL}profile.png`}
               alt="MOHAMMED AADHIL N"
               className="w-full h-full object-cover object-top"
             />
