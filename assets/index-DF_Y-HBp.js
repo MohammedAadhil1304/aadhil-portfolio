@@ -30,150 +30,150 @@ lg:px-20 lg:py-16
         text-center
         overflow-hidden
         ${i}
-      `,children:[C.jsx("div",{className:`
-          absolute inset-0
-          rounded-2xl sm:rounded-3xl
-          shadow-inner
-          shadow-black/40
-          pointer-events-none
-        `}),C.jsx("div",{className:`
-          absolute -inset-24
-          bg-violetGlow/25
-          blur-[140px]
-          -z-10
-        `}),C.jsx("div",{className:`
-          absolute inset-0
-          rounded-2xl sm:rounded-3xl
-          bg-gradient-to-b
-          from-white/15 via-transparent to-transparent
-          pointer-events-none
-        `}),C.jsx("div",{className:"relative z-10",children:r})]})}function Kx(){return C.jsx("button",{"aria-label":"Enter portfolio",className:`
-        w-14 h-14
-        sm:w-16 sm:h-16
-        md:w-20 md:h-20
-        rounded-full
-        bg-gradient-to-br from-[#2a1850] to-black
-        border border-violetGlow/50
-        shadow-xl
-        flex items-center justify-center
-        focus:outline-none
-        animate-powerGlow
-      `,children:C.jsxs("svg",{viewBox:"0 0 24 24",className:`
-          w-6 h-6
-          sm:w-7 sm:h-7
-          md:w-9 md:h-9
-          text-violetGlow
-        `,fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round",children:[C.jsx("path",{d:"M12 2v10"}),C.jsx("path",{d:"M6.38 6.38a9 9 0 1 0 11.24 0"})]})})}function Qx({onPower:r}){return C.jsxs(gn.div,{className:`
-        min-h-screen
-        w-full
-        flex items-center justify-center
-        px-4
-        relative overflow-hidden
+      `,children:[C.jsx("div",{className:`\r
+          absolute inset-0\r
+          rounded-2xl sm:rounded-3xl\r
+          shadow-inner\r
+          shadow-black/40\r
+          pointer-events-none\r
+        `}),C.jsx("div",{className:`\r
+          absolute -inset-24\r
+          bg-violetGlow/25\r
+          blur-[140px]\r
+          -z-10\r
+        `}),C.jsx("div",{className:`\r
+          absolute inset-0\r
+          rounded-2xl sm:rounded-3xl\r
+          bg-gradient-to-b\r
+          from-white/15 via-transparent to-transparent\r
+          pointer-events-none\r
+        `}),C.jsx("div",{className:"relative z-10",children:r})]})}function Kx(){return C.jsx("button",{"aria-label":"Enter portfolio",className:`\r
+        w-14 h-14\r
+        sm:w-16 sm:h-16\r
+        md:w-20 md:h-20\r
+        rounded-full\r
+        bg-gradient-to-br from-[#2a1850] to-black\r
+        border border-violetGlow/50\r
+        shadow-xl\r
+        flex items-center justify-center\r
+        focus:outline-none\r
+        animate-powerGlow\r
+      `,children:C.jsxs("svg",{viewBox:"0 0 24 24",className:`\r
+          w-6 h-6\r
+          sm:w-7 sm:h-7\r
+          md:w-9 md:h-9\r
+          text-violetGlow\r
+        `,fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round",children:[C.jsx("path",{d:"M12 2v10"}),C.jsx("path",{d:"M6.38 6.38a9 9 0 1 0 11.24 0"})]})})}function Qx({onPower:r}){return C.jsxs(gn.div,{className:`\r
+        min-h-screen\r
+        w-full\r
+        flex items-center justify-center\r
+        px-4\r
+        relative overflow-hidden\r
       `,style:{background:`
           radial-gradient(circle at 20% 20%, rgba(139,92,246,0.25), transparent 60%),
           radial-gradient(circle at 80% 80%, rgba(109,40,217,0.25), transparent 60%),
           linear-gradient(135deg, #05010d, #120720, #05010d)
-        `,backgroundSize:"200% 200%"},animate:{backgroundPosition:["0% 0%","100% 100%"]},transition:{duration:30,repeat:1/0,ease:"linear"},children:[C.jsx(gn.div,{className:`
-          absolute inset-0
-          bg-[radial-gradient(circle_at_center,_rgba(139,92,246,0.15),_transparent_70%)]
-        `,animate:{opacity:[.3,.6,.3]},transition:{duration:8,repeat:1/0,ease:"easeInOut"}}),C.jsx("div",{className:"relative z-10 w-full flex justify-center",children:C.jsxs(Gx,{className:`
-            w-full
-            max-w-[560px]
-            px-6 py-8
-            sm:px-8 sm:py-10
-            lg:px-10 lg:py-12
-            text-center
-          `,children:[C.jsx("div",{className:"flex justify-center",children:C.jsx("button",{onClick:r,className:"focus:outline-none",children:C.jsx(Kx,{})})}),C.jsx("h1",{className:`
-    mt-6
-    text-xl
-    sm:text-2xl
-    lg:text-3xl
-    font-semibold
-    tracking-widest
-    text-[#F5F3FF]
-    whitespace-normal
-  `,children:"MOHAMMED AADHIL N"}),C.jsx("p",{className:`
-              mt-4
-              text-xs
-              sm:text-sm
-              lg:text-base
-              tracking-[0.25em]
-              uppercase
-              font-medium
-              text-violetGlow
-            `,children:"Cybersecurity & Software Developer"}),C.jsx("p",{className:`
-    mt-5
-    max-w-[280px]
-    sm:max-w-md
-    mx-auto
-    text-[13px]
-    sm:text-[15px]
-    lg:text-[16px]
-    leading-[1.6]
-    text-[#E9D5FF]/90
-  `,children:"I build secure, scalable software systems with a strong focus on cybersecurity, system architecture, and modern application development — driven by resilience, performance, and security by design."}),C.jsx("p",{className:`
-              mt-6
-              text-xs
-              sm:text-sm
-              font-medium
-              tracking-wide
-              text-violetGlow
-            `,children:"Press the power button to enter my portfolio"})]})})]})}const Yx=()=>C.jsx("svg",{width:"96",height:"96",viewBox:"0 0 24 24",fill:"white",children:C.jsx("path",{d:"M16.365 1.43c0 1.14-.465 2.09-1.39 2.85-.94.78-2.12 1.38-3.43 1.27-.15-1.07.47-2.16 1.35-2.88.96-.8 2.33-1.4 3.47-1.24zM20.98 17.18c-.39.91-.57 1.32-1.08 2.14-.71 1.14-1.72 2.55-2.97 2.56-1.11.01-1.4-.73-2.93-.73-1.53 0-1.86.72-2.98.74-1.25.01-2.2-1.29-2.91-2.43-1.98-3.2-2.19-6.96-.97-8.88.87-1.38 2.24-2.18 3.53-2.18 1.32 0 2.16.73 3.25.73 1.05 0 1.69-.74 3.24-.74 1.14 0 2.35.62 3.22 1.7-2.83 1.55-2.37 5.58.6 6.89z"})}),Xx=()=>C.jsx("svg",{width:"96",height:"96",viewBox:"0 0 512 512",xmlns:"http://www.w3.org/2000/svg",children:C.jsx("path",{fill:"#8B5CF6",d:`M256 32c-28 40-22 92 10 132l-40 28c-28-20-66-18-90 8
-         -30 32-22 86 14 114l-32 44c-40-10-84 10-102 50
-         44-14 86 2 106 38 20 36 6 82-28 104
-         54 4 98-30 108-78l52-10c24 28 64 36 96 18
-         36-20 50-66 30-102l44-34c38 26 90 22 122-14
-         -48 6-88-18-94-58-6-38 22-74 62-80
-         -44-30-104-24-142 14l-50-32c14-36 2-80-30-102z`})}),Zx=()=>C.jsx("svg",{width:"96",height:"96",viewBox:"0 0 24 24",fill:"white",children:C.jsx("path",{d:"M3 4l8-1v9H3V4zm10-1l8-1v10h-8V3zM3 13h8v9l-8-1v-8zm10 0h8v10l-8-1v-9z"})}),oi=[{id:"mac",duration:2200,render:()=>C.jsxs(C.Fragment,{children:[C.jsx(Yx,{}),C.jsx(gn.div,{className:"mt-6 w-12 h-12 border-2 border-white/30 border-t-white rounded-full",animate:{rotate:360},transition:{repeat:1/0,duration:1,ease:"linear"}}),C.jsx("p",{className:"mt-6 text-xs tracking-widest text-white/60",children:"Starting macOS"})]})},{id:"linux",duration:2200,render:()=>C.jsxs(C.Fragment,{children:[C.jsx(Xx,{}),C.jsxs("div",{className:"mt-6 space-y-1 text-xs font-mono text-violetGlow/80",children:[C.jsx("p",{children:"[ OK ] Initializing kernel"}),C.jsx("p",{children:"[ OK ] Mounting file systems"}),C.jsx("p",{children:"[ OK ] Starting services"})]}),C.jsx(gn.div,{className:"mt-4 h-[2px] w-56 bg-violetGlow",initial:{scaleX:0},animate:{scaleX:1},transition:{duration:1.6,ease:"easeOut"}})]})},{id:"windows",duration:2200,render:()=>C.jsxs(C.Fragment,{children:[C.jsx(Zx,{}),C.jsx("p",{className:"mt-6 text-xs tracking-widest text-white/60",children:"Starting Windows"}),C.jsx(gn.div,{className:"mt-4 flex gap-2",animate:{rotate:360},transition:{repeat:1/0,duration:1.4,ease:"linear"},children:[...Array(6)].map((r,i)=>C.jsx("div",{className:"w-2.5 h-2.5 rounded-full bg-white/80"},i))})]})}];function qx({onFinish:r}){const[i,o]=B.useState(0);return B.useEffect(()=>{if(i>=oi.length){r();return}const a=setTimeout(()=>o(c=>c+1),oi[i].duration);return()=>clearTimeout(a)},[i,r]),C.jsxs("div",{className:"min-h-screen bg-darkBase flex items-center justify-center relative overflow-hidden",children:[C.jsx("div",{className:`
-          absolute inset-0
-          bg-[radial-gradient(circle_at_center,_rgba(139,92,246,0.18),_transparent_65%)]
-        `}),C.jsx(Qa,{mode:"wait",children:oi[i]&&C.jsx(gn.div,{initial:{opacity:0,scale:.92},animate:{opacity:1,scale:1},exit:{opacity:0,scale:.95},transition:{duration:.6,ease:"easeOut"},className:"flex flex-col items-center text-center text-white",children:oi[i].render()},oi[i].id)})]})}const ft={stroke:"#8B5CF6",strokeWidth:2},Jx=()=>C.jsxs("svg",{width:"52",height:"52",viewBox:"0 0 24 24",fill:"none",children:[C.jsx("circle",{cx:"12",cy:"8",r:"4",...ft}),C.jsx("path",{d:"M4 22c0-4 4-6 8-6s8 2 8 6",...ft})]}),bx=()=>C.jsx("svg",{width:"52",height:"52",viewBox:"0 0 24 24",fill:"none",children:C.jsx("path",{d:"M12 2l3.5 6.5L22 10l-5 4.5L18 22l-6-3.5L6 22l1-7.5L2 10l6.5-1.5L12 2z",...ft})}),e1=()=>C.jsxs("svg",{width:"52",height:"52",viewBox:"0 0 24 24",fill:"none",children:[C.jsx("rect",{x:"3",y:"3",width:"7",height:"7",rx:"2",...ft}),C.jsx("rect",{x:"14",y:"3",width:"7",height:"7",rx:"2",...ft}),C.jsx("rect",{x:"3",y:"14",width:"7",height:"7",rx:"2",...ft}),C.jsx("rect",{x:"14",y:"14",width:"7",height:"7",rx:"2",...ft})]}),t1=()=>C.jsxs("svg",{width:"52",height:"52",viewBox:"0 0 24 24",fill:"none",children:[C.jsx("rect",{x:"4",y:"6",width:"16",height:"14",rx:"2",...ft}),C.jsx("path",{d:"M9 6V4h6v2",...ft})]}),n1=()=>C.jsxs("svg",{width:"52",height:"52",viewBox:"0 0 24 24",fill:"none",children:[C.jsx("path",{d:"M4 4h16v12H4z",...ft}),C.jsx("path",{d:"M4 6l8 6 8-6",...ft})]}),r1=()=>C.jsxs("svg",{width:"52",height:"52",viewBox:"0 0 24 24",fill:"none",children:[C.jsx("rect",{x:"5",y:"3",width:"14",height:"18",rx:"2",...ft}),C.jsx("path",{d:"M8 9h8M8 13h6",...ft})]}),i1=()=>C.jsxs("svg",{width:"64",height:"48",viewBox:"0 0 64 48",fill:"none",children:[C.jsx("rect",{x:"2",y:"2",width:"60",height:"44",rx:"6",fill:"#120720",stroke:"#8B5CF6",strokeOpacity:"0.45"}),C.jsx("path",{d:"M14 16l6 6-6 6",stroke:"#8B5CF6",strokeWidth:"2"}),C.jsx("line",{x1:"26",y1:"28",x2:"42",y2:"28",stroke:"#8B5CF6",strokeWidth:"2"})]});function s1(){return C.jsxs("section",{className:"max-w-3xl mx-auto text-center",children:[C.jsx("h2",{className:"text-2xl font-semibold tracking-wide text-neutral-900",children:"About Me"}),C.jsx("p",{className:"mt-6 text-sm leading-relaxed text-slate-600",children:"I am a cybersecurity-focused software developer with a strong interest in system architecture, secure application design, and problem-solving at the intersection of software and security."}),C.jsx("p",{className:"mt-4 text-sm leading-relaxed text-slate-600",children:"I enjoy working close to the system level — understanding how software behaves under real-world constraints, identifying security risks, and building solutions that are reliable, efficient, and secure by design."}),C.jsx("p",{className:"mt-4 text-sm leading-relaxed text-slate-600",children:"My goal is to continuously grow as an engineer while building technology that prioritizes security, performance, and long-term reliability."})]})}function o1(){return C.jsxs("section",{className:"max-w-5xl mx-auto text-center",children:[C.jsx("h2",{className:"text-2xl font-semibold tracking-wide text-neutral-900",children:"Skills"}),C.jsxs("div",{className:"mt-10 grid grid-cols-1 md:grid-cols-2 gap-10 text-left",children:[C.jsxs("div",{children:[C.jsx("h3",{className:"text-sm font-semibold tracking-widest uppercase text-[#9A4B1F]",children:"Cybersecurity"}),C.jsxs("ul",{className:"mt-4 space-y-2 text-sm text-slate-600",children:[C.jsx("li",{children:"• Network security fundamentals"}),C.jsx("li",{children:"• Vulnerability analysis & threat identification"}),C.jsx("li",{children:"• Secure application design principles"}),C.jsx("li",{children:"• Authentication, authorization & access control"}),C.jsx("li",{children:"• Awareness of OWASP Top 10"})]})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-sm font-semibold tracking-widest uppercase text-[#9A4B1F]",children:"Software Development"}),C.jsxs("ul",{className:"mt-4 space-y-2 text-sm text-slate-600",children:[C.jsx("li",{children:"• Python, JavaScript"}),C.jsx("li",{children:"• Flask-based backend development"}),C.jsx("li",{children:"• Frontend development with React"}),C.jsx("li",{children:"• RESTful API design & integration"}),C.jsx("li",{children:"• Clean, maintainable code practices"})]})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-sm font-semibold tracking-widest uppercase text-[#9A4B1F]",children:"Systems & Tools"}),C.jsxs("ul",{className:"mt-4 space-y-2 text-sm text-slate-600",children:[C.jsx("li",{children:"• Linux-based environments"}),C.jsx("li",{children:"• Git & version control workflows"}),C.jsx("li",{children:"• Basic networking concepts"}),C.jsx("li",{children:"• Command-line tooling"}),C.jsx("li",{children:"• Deployment & debugging fundamentals"})]})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-sm font-semibold tracking-widest uppercase text-[#9A4B1F]",children:"Concepts & Practices"}),C.jsxs("ul",{className:"mt-4 space-y-2 text-sm text-slate-600",children:[C.jsx("li",{children:"• System architecture thinking"}),C.jsx("li",{children:"• Problem-solving & logical reasoning"}),C.jsx("li",{children:"• Secure-by-design mindset"}),C.jsx("li",{children:"• Performance & reliability awareness"})]})]})]})]})}function l1(){return C.jsxs("section",{className:"max-w-5xl mx-auto text-center",children:[C.jsx("h2",{className:"text-2xl font-semibold tracking-wide text-neutral-900",children:"Projects"}),C.jsxs("div",{className:"mt-10 space-y-10 text-left",children:[C.jsxs("div",{children:[C.jsx("h3",{className:"text-lg font-semibold text-neutral-800",children:"ChronoSteg – Time-Locked Steganography System"}),C.jsx("p",{className:"mt-2 text-sm text-slate-600 leading-relaxed",children:"A security-focused system that combines steganography with time-based access control, ensuring that sensitive data remains inaccessible until a predefined unlock time. Designed to protect time-critical intelligence and confidential information."}),C.jsx("p",{className:"mt-2 text-xs text-[#9A4B1F] tracking-wide",children:"Steganography · Cryptography · Time-Lock Encryption · Security"})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-lg font-semibold text-neutral-800",children:"Cybersecurity Awareness Chatbot"}),C.jsx("p",{className:"mt-2 text-sm text-slate-600 leading-relaxed",children:"An AI-powered chatbot developed to educate users on cybersecurity threats, safe online practices, and common attack vectors through interactive, conversational learning."}),C.jsx("p",{className:"mt-2 text-xs text-[#9A4B1F] tracking-wide",children:"AI · Cybersecurity Education · Chatbot · Web Application"})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-lg font-semibold text-neutral-800",children:"Smart Forensics Log Analyzer"}),C.jsx("p",{className:"mt-2 text-sm text-slate-600 leading-relaxed",children:"A forensic analysis tool capable of parsing and analyzing multiple log formats to identify anomalies, suspicious activities, and security-relevant events across systems."}),C.jsx("p",{className:"mt-2 text-xs text-[#9A4B1F] tracking-wide",children:"Digital Forensics · Log Analysis · Security Monitoring"})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-lg font-semibold text-neutral-800",children:"Text-to-Video AI Generator"}),C.jsx("p",{className:"mt-2 text-sm text-slate-600 leading-relaxed",children:"A web-based AI system that converts textual content into narrated videos with automated voice generation, captions, and video rendering."}),C.jsx("p",{className:"mt-2 text-xs text-[#9A4B1F] tracking-wide",children:"AI · Media Automation · Flask · Web Development"})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-lg font-semibold text-neutral-800",children:"Secure Sales & Inventory Management System"}),C.jsx("p",{className:"mt-2 text-sm text-slate-600 leading-relaxed",children:"A role-based web application designed to manage sales data, inventory tracking, and report generation with controlled user access and secure data handling."}),C.jsx("p",{className:"mt-2 text-xs text-[#9A4B1F] tracking-wide",children:"Web Application · Role-Based Access · Data Management"})]})]})]})}function a1(){return C.jsxs("section",{className:"max-w-4xl mx-auto text-center",children:[C.jsx("h2",{className:"text-2xl font-semibold tracking-wide text-neutral-900",children:"Experience & Achievements"}),C.jsxs("ul",{className:"mt-10 space-y-4 text-left text-sm text-slate-600 leading-relaxed",children:[C.jsx("li",{children:"• Participated in multiple national-level hackathons, focusing on cybersecurity, system security, and AI-driven solutions."}),C.jsx("li",{children:"• Filed a patent based on a security-focused software solution, demonstrating applied research, innovation, and problem-solving."}),C.jsx("li",{children:"• Actively worked on real-world projects involving secure system design, web application development, and cybersecurity awareness tools."}),C.jsx("li",{children:"• Collaborated in small technical teams, contributing to system architecture, development, and technical decision-making."}),C.jsx("li",{children:"• Continuously strengthening expertise through hands-on projects, experimentation, and self-driven learning in cybersecurity and software engineering."})]})]})}function u1(){return C.jsxs("section",{className:"max-w-3xl mx-auto text-center",children:[C.jsx("h2",{className:"text-2xl font-semibold tracking-wide text-neutral-900",children:"Contact"}),C.jsx("p",{className:"mt-6 text-sm leading-relaxed text-slate-600",children:"If you’d like to connect, collaborate, or discuss opportunities, feel free to reach out through the platforms below."}),C.jsxs("div",{className:"mt-10 flex flex-col sm:flex-row items-center justify-center gap-6",children:[C.jsx("a",{href:"mailto:aadhil1304@gmail.com",className:`
-            px-6 py-3
-            rounded-full
-            border border-orange-200
-            text-sm font-semibold
-            text-orange-700
-            hover:bg-orange-50
-            transition
-          `,children:"Email"}),C.jsx("a",{href:"https://www.linkedin.com/",target:"_blank",rel:"noreferrer",className:`
-            px-6 py-3
-            rounded-full
-            border border-orange-200
-            text-sm font-semibold
-            text-orange-700
-            hover:bg-orange-50
-            transition
-          `,children:"LinkedIn"}),C.jsx("a",{href:"https://github.com/",target:"_blank",rel:"noreferrer",className:`
-            px-6 py-3
-            rounded-full
-            border border-orange-200
-            text-sm font-semibold
-            text-orange-700
-            hover:bg-orange-50
-            transition
+        `,backgroundSize:"200% 200%"},animate:{backgroundPosition:["0% 0%","100% 100%"]},transition:{duration:30,repeat:1/0,ease:"linear"},children:[C.jsx(gn.div,{className:`\r
+          absolute inset-0\r
+          bg-[radial-gradient(circle_at_center,_rgba(139,92,246,0.15),_transparent_70%)]\r
+        `,animate:{opacity:[.3,.6,.3]},transition:{duration:8,repeat:1/0,ease:"easeInOut"}}),C.jsx("div",{className:"relative z-10 w-full flex justify-center",children:C.jsxs(Gx,{className:`\r
+            w-full\r
+            max-w-[560px]\r
+            px-6 py-8\r
+            sm:px-8 sm:py-10\r
+            lg:px-10 lg:py-12\r
+            text-center\r
+          `,children:[C.jsx("div",{className:"flex justify-center",children:C.jsx("button",{onClick:r,className:"focus:outline-none",children:C.jsx(Kx,{})})}),C.jsx("h1",{className:`\r
+    mt-6\r
+    text-xl\r
+    sm:text-2xl\r
+    lg:text-3xl\r
+    font-semibold\r
+    tracking-widest\r
+    text-[#F5F3FF]\r
+    whitespace-normal\r
+  `,children:"MOHAMMED AADHIL N"}),C.jsx("p",{className:`\r
+              mt-4\r
+              text-xs\r
+              sm:text-sm\r
+              lg:text-base\r
+              tracking-[0.25em]\r
+              uppercase\r
+              font-medium\r
+              text-violetGlow\r
+            `,children:"Cybersecurity & Software Developer"}),C.jsx("p",{className:`\r
+    mt-5\r
+    max-w-[280px]\r
+    sm:max-w-md\r
+    mx-auto\r
+    text-[13px]\r
+    sm:text-[15px]\r
+    lg:text-[16px]\r
+    leading-[1.6]\r
+    text-[#E9D5FF]/90\r
+  `,children:"I build secure, scalable software systems with a strong focus on cybersecurity, system architecture, and modern application development — driven by resilience, performance, and security by design."}),C.jsx("p",{className:`\r
+              mt-6\r
+              text-xs\r
+              sm:text-sm\r
+              font-medium\r
+              tracking-wide\r
+              text-violetGlow\r
+            `,children:"Press the power button to enter my portfolio"})]})})]})}const Yx=()=>C.jsx("svg",{width:"96",height:"96",viewBox:"0 0 24 24",fill:"white",children:C.jsx("path",{d:"M16.365 1.43c0 1.14-.465 2.09-1.39 2.85-.94.78-2.12 1.38-3.43 1.27-.15-1.07.47-2.16 1.35-2.88.96-.8 2.33-1.4 3.47-1.24zM20.98 17.18c-.39.91-.57 1.32-1.08 2.14-.71 1.14-1.72 2.55-2.97 2.56-1.11.01-1.4-.73-2.93-.73-1.53 0-1.86.72-2.98.74-1.25.01-2.2-1.29-2.91-2.43-1.98-3.2-2.19-6.96-.97-8.88.87-1.38 2.24-2.18 3.53-2.18 1.32 0 2.16.73 3.25.73 1.05 0 1.69-.74 3.24-.74 1.14 0 2.35.62 3.22 1.7-2.83 1.55-2.37 5.58.6 6.89z"})}),Xx=()=>C.jsx("svg",{width:"96",height:"96",viewBox:"0 0 512 512",xmlns:"http://www.w3.org/2000/svg",children:C.jsx("path",{fill:"#8B5CF6",d:`M256 32c-28 40-22 92 10 132l-40 28c-28-20-66-18-90 8\r
+         -30 32-22 86 14 114l-32 44c-40-10-84 10-102 50\r
+         44-14 86 2 106 38 20 36 6 82-28 104\r
+         54 4 98-30 108-78l52-10c24 28 64 36 96 18\r
+         36-20 50-66 30-102l44-34c38 26 90 22 122-14\r
+         -48 6-88-18-94-58-6-38 22-74 62-80\r
+         -44-30-104-24-142 14l-50-32c14-36 2-80-30-102z`})}),Zx=()=>C.jsx("svg",{width:"96",height:"96",viewBox:"0 0 24 24",fill:"white",children:C.jsx("path",{d:"M3 4l8-1v9H3V4zm10-1l8-1v10h-8V3zM3 13h8v9l-8-1v-8zm10 0h8v10l-8-1v-9z"})}),oi=[{id:"mac",duration:2200,render:()=>C.jsxs(C.Fragment,{children:[C.jsx(Yx,{}),C.jsx(gn.div,{className:"mt-6 w-12 h-12 border-2 border-white/30 border-t-white rounded-full",animate:{rotate:360},transition:{repeat:1/0,duration:1,ease:"linear"}}),C.jsx("p",{className:"mt-6 text-xs tracking-widest text-white/60",children:"Starting macOS"})]})},{id:"linux",duration:2200,render:()=>C.jsxs(C.Fragment,{children:[C.jsx(Xx,{}),C.jsxs("div",{className:"mt-6 space-y-1 text-xs font-mono text-violetGlow/80",children:[C.jsx("p",{children:"[ OK ] Initializing kernel"}),C.jsx("p",{children:"[ OK ] Mounting file systems"}),C.jsx("p",{children:"[ OK ] Starting services"})]}),C.jsx(gn.div,{className:"mt-4 h-[2px] w-56 bg-violetGlow",initial:{scaleX:0},animate:{scaleX:1},transition:{duration:1.6,ease:"easeOut"}})]})},{id:"windows",duration:2200,render:()=>C.jsxs(C.Fragment,{children:[C.jsx(Zx,{}),C.jsx("p",{className:"mt-6 text-xs tracking-widest text-white/60",children:"Starting Windows"}),C.jsx(gn.div,{className:"mt-4 flex gap-2",animate:{rotate:360},transition:{repeat:1/0,duration:1.4,ease:"linear"},children:[...Array(6)].map((r,i)=>C.jsx("div",{className:"w-2.5 h-2.5 rounded-full bg-white/80"},i))})]})}];function qx({onFinish:r}){const[i,o]=B.useState(0);return B.useEffect(()=>{if(i>=oi.length){r();return}const a=setTimeout(()=>o(c=>c+1),oi[i].duration);return()=>clearTimeout(a)},[i,r]),C.jsxs("div",{className:"min-h-screen bg-darkBase flex items-center justify-center relative overflow-hidden",children:[C.jsx("div",{className:`\r
+          absolute inset-0\r
+          bg-[radial-gradient(circle_at_center,_rgba(139,92,246,0.18),_transparent_65%)]\r
+        `}),C.jsx(Qa,{mode:"wait",children:oi[i]&&C.jsx(gn.div,{initial:{opacity:0,scale:.92},animate:{opacity:1,scale:1},exit:{opacity:0,scale:.95},transition:{duration:.6,ease:"easeOut"},className:"flex flex-col items-center text-center text-white",children:oi[i].render()},oi[i].id)})]})}const ft={stroke:"#8B5CF6",strokeWidth:2},Jx=()=>C.jsxs("svg",{width:"52",height:"52",viewBox:"0 0 24 24",fill:"none",children:[C.jsx("circle",{cx:"12",cy:"8",r:"4",...ft}),C.jsx("path",{d:"M4 22c0-4 4-6 8-6s8 2 8 6",...ft})]}),bx=()=>C.jsx("svg",{width:"52",height:"52",viewBox:"0 0 24 24",fill:"none",children:C.jsx("path",{d:"M12 2l3.5 6.5L22 10l-5 4.5L18 22l-6-3.5L6 22l1-7.5L2 10l6.5-1.5L12 2z",...ft})}),e1=()=>C.jsxs("svg",{width:"52",height:"52",viewBox:"0 0 24 24",fill:"none",children:[C.jsx("rect",{x:"3",y:"3",width:"7",height:"7",rx:"2",...ft}),C.jsx("rect",{x:"14",y:"3",width:"7",height:"7",rx:"2",...ft}),C.jsx("rect",{x:"3",y:"14",width:"7",height:"7",rx:"2",...ft}),C.jsx("rect",{x:"14",y:"14",width:"7",height:"7",rx:"2",...ft})]}),t1=()=>C.jsxs("svg",{width:"52",height:"52",viewBox:"0 0 24 24",fill:"none",children:[C.jsx("rect",{x:"4",y:"6",width:"16",height:"14",rx:"2",...ft}),C.jsx("path",{d:"M9 6V4h6v2",...ft})]}),n1=()=>C.jsxs("svg",{width:"52",height:"52",viewBox:"0 0 24 24",fill:"none",children:[C.jsx("path",{d:"M4 4h16v12H4z",...ft}),C.jsx("path",{d:"M4 6l8 6 8-6",...ft})]}),r1=()=>C.jsxs("svg",{width:"52",height:"52",viewBox:"0 0 24 24",fill:"none",children:[C.jsx("rect",{x:"5",y:"3",width:"14",height:"18",rx:"2",...ft}),C.jsx("path",{d:"M8 9h8M8 13h6",...ft})]}),i1=()=>C.jsxs("svg",{width:"64",height:"48",viewBox:"0 0 64 48",fill:"none",children:[C.jsx("rect",{x:"2",y:"2",width:"60",height:"44",rx:"6",fill:"#120720",stroke:"#8B5CF6",strokeOpacity:"0.45"}),C.jsx("path",{d:"M14 16l6 6-6 6",stroke:"#8B5CF6",strokeWidth:"2"}),C.jsx("line",{x1:"26",y1:"28",x2:"42",y2:"28",stroke:"#8B5CF6",strokeWidth:"2"})]});function s1(){return C.jsxs("section",{className:"max-w-3xl mx-auto text-center",children:[C.jsx("h2",{className:"text-2xl font-semibold tracking-wide text-neutral-900",children:"About Me"}),C.jsx("p",{className:"mt-6 text-sm leading-relaxed text-slate-600",children:"I am a cybersecurity-focused software developer with a strong interest in system architecture, secure application design, and problem-solving at the intersection of software and security."}),C.jsx("p",{className:"mt-4 text-sm leading-relaxed text-slate-600",children:"I enjoy working close to the system level — understanding how software behaves under real-world constraints, identifying security risks, and building solutions that are reliable, efficient, and secure by design."}),C.jsx("p",{className:"mt-4 text-sm leading-relaxed text-slate-600",children:"My goal is to continuously grow as an engineer while building technology that prioritizes security, performance, and long-term reliability."})]})}function o1(){return C.jsxs("section",{className:"max-w-5xl mx-auto text-center",children:[C.jsx("h2",{className:"text-2xl font-semibold tracking-wide text-neutral-900",children:"Skills"}),C.jsxs("div",{className:"mt-10 grid grid-cols-1 md:grid-cols-2 gap-10 text-left",children:[C.jsxs("div",{children:[C.jsx("h3",{className:"text-sm font-semibold tracking-widest uppercase text-[#9A4B1F]",children:"Cybersecurity"}),C.jsxs("ul",{className:"mt-4 space-y-2 text-sm text-slate-600",children:[C.jsx("li",{children:"• Network security fundamentals"}),C.jsx("li",{children:"• Vulnerability analysis & threat identification"}),C.jsx("li",{children:"• Secure application design principles"}),C.jsx("li",{children:"• Authentication, authorization & access control"}),C.jsx("li",{children:"• Awareness of OWASP Top 10"})]})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-sm font-semibold tracking-widest uppercase text-[#9A4B1F]",children:"Software Development"}),C.jsxs("ul",{className:"mt-4 space-y-2 text-sm text-slate-600",children:[C.jsx("li",{children:"• Python, JavaScript"}),C.jsx("li",{children:"• Flask-based backend development"}),C.jsx("li",{children:"• Frontend development with React"}),C.jsx("li",{children:"• RESTful API design & integration"}),C.jsx("li",{children:"• Clean, maintainable code practices"})]})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-sm font-semibold tracking-widest uppercase text-[#9A4B1F]",children:"Systems & Tools"}),C.jsxs("ul",{className:"mt-4 space-y-2 text-sm text-slate-600",children:[C.jsx("li",{children:"• Linux-based environments"}),C.jsx("li",{children:"• Git & version control workflows"}),C.jsx("li",{children:"• Basic networking concepts"}),C.jsx("li",{children:"• Command-line tooling"}),C.jsx("li",{children:"• Deployment & debugging fundamentals"})]})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-sm font-semibold tracking-widest uppercase text-[#9A4B1F]",children:"Concepts & Practices"}),C.jsxs("ul",{className:"mt-4 space-y-2 text-sm text-slate-600",children:[C.jsx("li",{children:"• System architecture thinking"}),C.jsx("li",{children:"• Problem-solving & logical reasoning"}),C.jsx("li",{children:"• Secure-by-design mindset"}),C.jsx("li",{children:"• Performance & reliability awareness"})]})]})]})]})}function l1(){return C.jsxs("section",{className:"max-w-5xl mx-auto text-center",children:[C.jsx("h2",{className:"text-2xl font-semibold tracking-wide text-neutral-900",children:"Projects"}),C.jsxs("div",{className:"mt-10 space-y-10 text-left",children:[C.jsxs("div",{children:[C.jsx("h3",{className:"text-lg font-semibold text-neutral-800",children:"ChronoSteg – Time-Locked Steganography System"}),C.jsx("p",{className:"mt-2 text-sm text-slate-600 leading-relaxed",children:"A security-focused system that combines steganography with time-based access control, ensuring that sensitive data remains inaccessible until a predefined unlock time. Designed to protect time-critical intelligence and confidential information."}),C.jsx("p",{className:"mt-2 text-xs text-[#9A4B1F] tracking-wide",children:"Steganography · Cryptography · Time-Lock Encryption · Security"})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-lg font-semibold text-neutral-800",children:"Cybersecurity Awareness Chatbot"}),C.jsx("p",{className:"mt-2 text-sm text-slate-600 leading-relaxed",children:"An AI-powered chatbot developed to educate users on cybersecurity threats, safe online practices, and common attack vectors through interactive, conversational learning."}),C.jsx("p",{className:"mt-2 text-xs text-[#9A4B1F] tracking-wide",children:"AI · Cybersecurity Education · Chatbot · Web Application"})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-lg font-semibold text-neutral-800",children:"Smart Forensics Log Analyzer"}),C.jsx("p",{className:"mt-2 text-sm text-slate-600 leading-relaxed",children:"A forensic analysis tool capable of parsing and analyzing multiple log formats to identify anomalies, suspicious activities, and security-relevant events across systems."}),C.jsx("p",{className:"mt-2 text-xs text-[#9A4B1F] tracking-wide",children:"Digital Forensics · Log Analysis · Security Monitoring"})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-lg font-semibold text-neutral-800",children:"Text-to-Video AI Generator"}),C.jsx("p",{className:"mt-2 text-sm text-slate-600 leading-relaxed",children:"A web-based AI system that converts textual content into narrated videos with automated voice generation, captions, and video rendering."}),C.jsx("p",{className:"mt-2 text-xs text-[#9A4B1F] tracking-wide",children:"AI · Media Automation · Flask · Web Development"})]}),C.jsxs("div",{children:[C.jsx("h3",{className:"text-lg font-semibold text-neutral-800",children:"Secure Sales & Inventory Management System"}),C.jsx("p",{className:"mt-2 text-sm text-slate-600 leading-relaxed",children:"A role-based web application designed to manage sales data, inventory tracking, and report generation with controlled user access and secure data handling."}),C.jsx("p",{className:"mt-2 text-xs text-[#9A4B1F] tracking-wide",children:"Web Application · Role-Based Access · Data Management"})]})]})]})}function a1(){return C.jsxs("section",{className:"max-w-4xl mx-auto text-center",children:[C.jsx("h2",{className:"text-2xl font-semibold tracking-wide text-neutral-900",children:"Experience & Achievements"}),C.jsxs("ul",{className:"mt-10 space-y-4 text-left text-sm text-slate-600 leading-relaxed",children:[C.jsx("li",{children:"• Participated in multiple national-level hackathons, focusing on cybersecurity, system security, and AI-driven solutions."}),C.jsx("li",{children:"• Filed a patent based on a security-focused software solution, demonstrating applied research, innovation, and problem-solving."}),C.jsx("li",{children:"• Actively worked on real-world projects involving secure system design, web application development, and cybersecurity awareness tools."}),C.jsx("li",{children:"• Collaborated in small technical teams, contributing to system architecture, development, and technical decision-making."}),C.jsx("li",{children:"• Continuously strengthening expertise through hands-on projects, experimentation, and self-driven learning in cybersecurity and software engineering."})]})]})}function u1(){return C.jsxs("section",{className:"max-w-3xl mx-auto text-center",children:[C.jsx("h2",{className:"text-2xl font-semibold tracking-wide text-neutral-900",children:"Contact"}),C.jsx("p",{className:"mt-6 text-sm leading-relaxed text-slate-600",children:"If you’d like to connect, collaborate, or discuss opportunities, feel free to reach out through the platforms below."}),C.jsxs("div",{className:"mt-10 flex flex-col sm:flex-row items-center justify-center gap-6",children:[C.jsx("a",{href:"mailto:aadhil1304@gmail.com",className:`\r
+            px-6 py-3\r
+            rounded-full\r
+            border border-orange-200\r
+            text-sm font-semibold\r
+            text-orange-700\r
+            hover:bg-orange-50\r
+            transition\r
+          `,children:"Email"}),C.jsx("a",{href:"https://www.linkedin.com/",target:"_blank",rel:"noreferrer",className:`\r
+            px-6 py-3\r
+            rounded-full\r
+            border border-orange-200\r
+            text-sm font-semibold\r
+            text-orange-700\r
+            hover:bg-orange-50\r
+            transition\r
+          `,children:"LinkedIn"}),C.jsx("a",{href:"https://github.com/",target:"_blank",rel:"noreferrer",className:`\r
+            px-6 py-3\r
+            rounded-full\r
+            border border-orange-200\r
+            text-sm font-semibold\r
+            text-orange-700\r
+            hover:bg-orange-50\r
+            transition\r
           `,children:"GitHub"})]})]})}const c1={about:C.jsx(s1,{}),skills:C.jsx(o1,{}),projects:C.jsx(l1,{}),experience:C.jsx(a1,{}),resume:C.jsx("iframe",{src:"/aadhil-portfolio/resume.pdf",title:"Resume",className:"w-full h-[70vh] rounded-xl border border-white/20"}),contact:C.jsx(u1,{}),terminal:C.jsx(h1,{})},f1=[{id:"about",title:"About",icon:Jx},{id:"skills",title:"Skills",icon:bx},{id:"projects",title:"Projects",icon:e1},{id:"experience",title:"Experience",icon:t1},{id:"resume",title:"Resume",icon:r1},{id:"contact",title:"Contact",icon:n1},{id:"terminal",title:"Terminal",icon:i1}];function d1(){const[r,i]=B.useState("about"),o=B.useRef(null),a=c=>{i(c),window.innerWidth<1024&&setTimeout(()=>{o.current?.scrollIntoView({behavior:"smooth",block:"start"})},120)};return C.jsxs("div",{className:"min-h-screen bg-darkBase relative overflow-hidden flex flex-col lg:flex-row",children:[C.jsx("div",{className:"absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(139,92,246,0.18),_transparent_60%)]"}),C.jsx("aside",{className:"relative z-10 w-full lg:w-72 p-5 sm:p-6 lg:p-10 space-y-3",children:f1.map(c=>{const h=c.icon,f=r===c.id;return C.jsxs("button",{onClick:()=>a(c.id),className:`
                 w-full flex items-center gap-4
                 p-4 rounded-xl
                 transition
                 ${f?"bg-violetGlow/25":"bg-[#161024]/70 hover:bg-[#1f1634]"}
-              `,children:[C.jsx("div",{className:"p-2 rounded-lg border border-violetGlow/40",children:C.jsx(h,{})}),C.jsx("span",{className:"text-sm tracking-widest text-[#E9D5FF]",children:c.title})]},c.id)})}),C.jsx("section",{className:"relative z-10 flex items-center justify-center py-8 lg:py-0 lg:w-[420px]",children:C.jsx("div",{className:"relative w-[300px] h-[420px] sm:w-[360px] sm:h-[480px]",children:C.jsxs("div",{className:`
-              absolute inset-1/2
-              -translate-x-1/2 -translate-y-1/2
-              w-[220px] h-[320px]
-              sm:w-[260px] sm:h-[360px]
-              rounded-2xl
-              bg-[#161024]/90
-              backdrop-blur-xl
-              border border-violetGlow/60
-              shadow-[0_0_120px_rgba(139,92,246,0.45)]
-              overflow-hidden
-              z-20
-            `,children:[C.jsx("div",{className:"absolute inset-0 rounded-2xl ring-1 ring-violetGlow/30 pointer-events-none"}),C.jsx("img",{src:"/aadhil-portfolio/profile.jpeg",alt:"MOHAMMED AADHIL N",className:"w-full h-full object-cover object-top"})]})})}),C.jsx("main",{ref:o,className:"relative z-10 flex-1 px-4 py-6 sm:px-6 sm:py-8 lg:px-12 overflow-y-auto",children:C.jsx(Qa,{mode:"wait",children:C.jsx(gn.div,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},exit:{opacity:0,y:-20},transition:{duration:.35,ease:"easeOut"},className:`
-              max-w-4xl mx-auto
-              bg-[#1b1333]/85
-              backdrop-blur-xl
-              border border-violetGlow/30
-              rounded-2xl
-              p-5 sm:p-7 lg:p-10
-              shadow-[0_30px_80px_rgba(0,0,0,0.6)]
+              `,children:[C.jsx("div",{className:"p-2 rounded-lg border border-violetGlow/40",children:C.jsx(h,{})}),C.jsx("span",{className:"text-sm tracking-widest text-[#E9D5FF]",children:c.title})]},c.id)})}),C.jsx("section",{className:"relative z-10 flex items-center justify-center py-8 lg:py-0 lg:w-[420px]",children:C.jsx("div",{className:"relative w-[300px] h-[420px] sm:w-[360px] sm:h-[480px]",children:C.jsxs("div",{className:`\r
+              absolute inset-1/2\r
+              -translate-x-1/2 -translate-y-1/2\r
+              w-[220px] h-[320px]\r
+              sm:w-[260px] sm:h-[360px]\r
+              rounded-2xl\r
+              bg-[#161024]/90\r
+              backdrop-blur-xl\r
+              border border-violetGlow/60\r
+              shadow-[0_0_120px_rgba(139,92,246,0.45)]\r
+              overflow-hidden\r
+              z-20\r
+            `,children:[C.jsx("div",{className:"absolute inset-0 rounded-2xl ring-1 ring-violetGlow/30 pointer-events-none"}),C.jsx("img",{src:"/aadhil-portfolio/profile.png",alt:"MOHAMMED AADHIL N",className:"w-full h-full object-cover object-top"})]})})}),C.jsx("main",{ref:o,className:"relative z-10 flex-1 px-4 py-6 sm:px-6 sm:py-8 lg:px-12 overflow-y-auto",children:C.jsx(Qa,{mode:"wait",children:C.jsx(gn.div,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},exit:{opacity:0,y:-20},transition:{duration:.35,ease:"easeOut"},className:`\r
+              max-w-4xl mx-auto\r
+              bg-[#1b1333]/85\r
+              backdrop-blur-xl\r
+              border border-violetGlow/30\r
+              rounded-2xl\r
+              p-5 sm:p-7 lg:p-10\r
+              shadow-[0_30px_80px_rgba(0,0,0,0.6)]\r
             `,children:c1[r]},r)})})]})}function h1(){return C.jsxs("div",{className:"font-mono text-xs sm:text-sm space-y-2",children:[C.jsxs("p",{className:"text-violetGlow",children:[">"," whoami"]}),C.jsx("p",{className:"text-[#F5F3FF] font-semibold",children:"MOHAMMED AADHIL N"}),C.jsxs("p",{className:"mt-3 text-violetGlow",children:[">"," ls"]}),C.jsx("p",{className:"text-[#DDD6FE]",children:"about  skills  projects   experience  resume  contact"})]})}function p1(){const[r,i]=B.useState("entry");return C.jsxs(Qa,{mode:"wait",children:[r==="entry"&&C.jsx(Qx,{onPower:()=>i("boot")}),r==="boot"&&C.jsx(qx,{onFinish:()=>i("desktop")}),r==="desktop"&&C.jsx(d1,{})]})}Mg.createRoot(document.getElementById("root")).render(C.jsx(Ca.StrictMode,{children:C.jsx(p1,{})}));
