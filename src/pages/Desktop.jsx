@@ -153,15 +153,15 @@ export default function Desktop() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.35, ease: "easeOut" }}
-            className="
-              max-w-4xl mx-auto
-              bg-[#1b1333]/85
-              backdrop-blur-xl
-              border border-violetGlow/30
-              rounded-2xl
-              p-5 sm:p-7 lg:p-10
-              shadow-[0_30px_80px_rgba(0,0,0,0.6)]
-            "
+  className="
+    max-w-4xl mx-auto
+    bg-[#24184a]/92
+    backdrop-blur-2xl
+    border border-violetGlow/40
+    rounded-2xl
+    p-6 sm:p-8 lg:p-10
+    shadow-[0_30px_90px_rgba(0,0,0,0.65)]
+  "
           >
             {SECTIONS[activeSection]}
           </motion.div>

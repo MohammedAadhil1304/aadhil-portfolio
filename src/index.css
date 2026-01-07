@@ -98,3 +98,40 @@ main h3 {
     transform: translateY(0);
   }
 }
+/* ============================
+   WINDOW CONTENT SYSTEM
+============================ */
+
+main h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #f5f3ff;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.02em;
+}
+
+main h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #e9d5ff;
+  margin-bottom: 0.5rem;
+}
+
+main p {
+  color: #ddd6fe;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+main ul li {
+  color: #e9d5ff;
+  line-height: 1.6;
+}
+
+main a {
+  color: #a78bfa;
+}
+
+main a:hover {
+  color: #c4b5fd;
+}
