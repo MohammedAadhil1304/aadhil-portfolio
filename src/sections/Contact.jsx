@@ -19,7 +19,7 @@ export default function Contact() {
         </a>
 
         <a
-          href="www.linkedin.com/in/mohammedaadhil1304"
+          href="https://www.linkedin.com/in/mohammedaadhil1304/"
           target="_blank"
           rel="noreferrer"
           className="px-6 py-3 rounded-full border border-violetGlow/40 text-sm font-semibold text-violetGlow hover:bg-violetGlow/10 transition"
